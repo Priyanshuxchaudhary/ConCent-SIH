@@ -65,7 +65,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const corsOptions = {
-  origin: 'http://concent.vercel.app', // Replace with your client's domain
+  origin: 'https://concentweb-rust.vercel.app', // Replace with your client's domain
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
 
@@ -98,3 +98,4 @@ mongoose
 
   })
   .catch((error) => console.log(`${error} did not connect`));
+  console.log("Deployed");
