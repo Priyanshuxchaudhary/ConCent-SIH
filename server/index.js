@@ -67,7 +67,7 @@ app.use(cors());
 
 
 const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with your client's domain
+  origin: 'http://concent.vercel.app', // Replace with your client's domain
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
 
