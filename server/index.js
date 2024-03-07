@@ -64,12 +64,7 @@ app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-const corsOptions = {
-  origin: 'https://concentweb-rust.vercel.app', 
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-};
 
-app.use(cors(corsOptions));
 
 /* ROUTES */
 app.use("/client", clientRoutes);
