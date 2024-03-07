@@ -53,7 +53,6 @@ import {
 //   console.log(`Server is running on port ${port}`);
 // });
 
-
 /* CONFIGURATION */
 dotenv.config();
 const app = express();
@@ -64,7 +63,12 @@ app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+const corsOptions = {
+  origin: "https://concentweb-rust.vercel.app",
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+};
 
+app.use(cors(corsOptions));
 
 /* ROUTES */
 app.use("/client", clientRoutes);
@@ -90,7 +94,6 @@ mongoose
     // Transaction.insertMany(dataTransaction);
     // User.insertMany(dataUser);
     // Admin.insertMany(dataAdmin);
-
   })
   .catch((error) => console.log(`${error} did not connect`));
-  console.log("Deployed");
+console.log("Deployed");
