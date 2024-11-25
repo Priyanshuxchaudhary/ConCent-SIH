@@ -1,8 +1,8 @@
 Call Center AI Web Application 🌐
 
-A full-stack, responsive web application built to enhance customer service operations for contact centers. With AI-powered sentiment analysis and an intuitive unified dashboard, this solution streamlines performance tracking, customer interactions, and data visualization. 🚀
+    A full-stack, responsive web application built to enhance customer service operations for contact centers. With AI-powered sentiment analysis and an intuitive unified            dashboard, this solution streamlines performance tracking, customer interactions, and data visualization. 🚀
 
-📑 Table of Contents
+📑Table of Contents
 
     Project Overview
     Features
@@ -15,7 +15,7 @@ A full-stack, responsive web application built to enhance customer service opera
 
 🌟 Project Overview
 
-This application is designed to provide businesses with a one-stop solution for improving contact center operations. By leveraging AI-powered tools and real-time data management, the app ensures efficient customer care and data-driven decision-making. 
+    This application is designed to provide businesses with a one-stop solution for improving contact center operations. By leveraging AI-powered tools and real-time data            management, the app ensures efficient customer care and data-driven decision-making. 
 
 📊Key Features:
 
@@ -72,7 +72,7 @@ This application is designed to provide businesses with a one-stop solution for 
         GitHub 🐙
 
 🧑‍💻 Installation Instructions
-Prerequisites
+    Prerequisites
 
     Node.js 🌐
     Python 3.x 🐍
@@ -82,25 +82,25 @@ Setup Steps
 
     Clone the repository:
 
-git clone https://github.com/Priyanshuxchaudhary/ConCent-SIH.git
-cd ConCent-SIH
+    git clone https://github.com/Priyanshuxchaudhary/ConCent-SIH.git
+    cd ConCent-SIH
 
 Install frontend dependencies:
 
-cd client
-npm install
+    cd client
+    npm install
 
 Install backend dependencies:
 
-cd server
-pip install -r requirements.txt
+    cd server
+    pip install -r requirements.txt
 
 Configure MongoDB connection in the .env file.
 
 Start the backend server:
 
-cd server
-uvicorn app.main:app --reload
+    cd server
+    uvicorn app.main:app --reload
 
 Start the frontend application:
 
